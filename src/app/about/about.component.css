@@ -1,0 +1,47 @@
+/* AboutComponent's private CSS styles */
+
+div {
+    padding: 1rem;
+}
+
+p {
+    padding: 0;
+}
+
+p:last-child {
+    margin-bottom: 0;
+}
+
+button {
+    margin: 0.4rem 0 1rem 0;
+    width: 5rem;
+    background-color: #3986d3;
+    padding: 0.4rem;
+    border-radius: 4px;
+    font-size: 1rem;
+    color: #ffffff;
+    border: none;
+}
+
+button:disabled {
+    background-color: #eee;
+    color: #ccc;
+    cursor: auto;
+}
+
+@media screen and (min-width: 400px) {
+    div {
+        text-align: center;
+    }
+
+    p {
+        width: 50%;
+        margin: 1rem auto;
+    }
+
+    button:hover {
+        cursor: pointer;
+        background-color: #1976d2;
+        color: #cfd8dc;
+    }
+}

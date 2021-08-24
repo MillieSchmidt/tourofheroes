@@ -1,0 +1,18 @@
+/* HeaderComponent's private CSS styles */
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #1976d2;
+}
+
+h3 {
+    margin: 0;
+    padding: 1rem 0.5rem;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 1rem;
+    color: #ffffff;
+    border-radius: 4px;
+}
